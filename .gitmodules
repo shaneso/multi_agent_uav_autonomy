@@ -1,0 +1,3 @@
+[submodule "software/fcu_core"]
+	path = software/fcu_core
+	url = https://github.com/Zander-M/fcu_core
