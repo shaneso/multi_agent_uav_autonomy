@@ -1,0 +1,12 @@
+UAV Component Measurements
+
+Drone body length = 54.16 mm
+Drone body width = 53.83 mm
+Drone body height = 18.14 mm
+Tracker ball diameter = 8 mm
+Tracker ball velcro mount diameter = 20 mm
+Length from corner of drone body to edge of propeller arm = 33.5 mm
+Battery width = 26.12 mm
+Battery length = 64.5 mm
+Battery height = 12.5 mm
+

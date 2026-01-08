@@ -1,0 +1,21 @@
+UAV Swarm Software Repository
+https://gitee.com/fancinnov/fcu_core
+
+FanciSwarm Drone Documentation
+https://fancinnov.com/support-FanciSwarm
+
+ROS RViz User Guide
+https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html#install-or-build-rviz
+
+Motion Capture System
+https://www.vicon.com/
+
+OSRF ROS Docker Image
+https://hub.docker.com/r/osrf/ros
+
+OSRF Docker Image GitHub Repository
+https://github.com/osrf/docker_images?tab=readme-ov-file
+
+Navigation 2
+https://docs.nav2.org/
+
