@@ -1,0 +1,22 @@
+airob lab
+
+new batteries
+  - 1000 mAh battery with 2SLiPO batteries
+build frame for new batteries
+handle PID tuning to offset alterations from new battery frame
+drone firmware designed for stm32
+PID tuning
+- get sensor data from IMUs
+- calculate delta between current and desired states
+- proportional integration
+- proportional differentiation
+- tell controller to calibrate and correct actions based on PID tuning
+- PID tuning from MATLAB
+
+TODOs
+- Zander: test new batteries and verify compatibility
+- Shane: check how code is sending commands to drones to specific position
+  - fcu_mission.cpp
+- Flight testing for one UAV from source code
+- Flight testing for all UAVs from source code
+- Set up Vicon motion capture system

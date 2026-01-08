@@ -1,0 +1,65 @@
+AIRob Lab - UAV Project TODOs
+
+PX4 and ArduPilot (APM) - flight controller firmware
+INAV
+Beta flight - for FPVs (lacks waypoint following capabilities)
+FPV - first person view
+RViz trajectory simulation testing + Vicon
+
+Likely firmware to use: PX4 / APM
+
+TODOs
+
+Send Fusion account info to Zander and join design team workspace - verify it is using the academic license
+Waypoint finding
+Pipeline flight testing with multi-agent UAVs (multiple drones)
+RViz test simulation - simulate trajectories with waypoints
+Rare for problems with gimbal locks to occur with drones; usually safety for 6 DoF robotic manipulators
+
+Design tracker mount to install on a drone, then test it Vicon
+Vicon testing with multiple drones
+Waypoint following for 1 drone
+Waypoint following for multiple drones
+
+DEMOs
+
+Demo for multi-agent flight
+Waypoint following demo
+Multi-drone waypoint following
+
+UPCOMING
+
+Jan 19 - expected arrival of new drone package
+Two types of drones, 1 controller
+1 prebuilt, 1 package with parts - to build
+Raspberry Pi and depth cameras + onboard navigation
+RPi is doing the planning and comms with controller via Mavlink
+Mavlink tells controller procedure for motors
+Omnidirectional wheel base + ground robot
+
+ROS1 --> ROS2
+
+When running FCU core - running ROS1
+ROS bridge uses topic names, but some topic names are not compatible with both ROS1 and ROS2
+Topic name - basically a C struct that has some defined fields - if fields are not standard ROS fields,
+then you need to create custom definitions
+Topic names can be found in the fcu_core software - check definitions
+
+REPOs
+
+1 git repo for documentation
+1 git repo for fcu_core software
+submodule - reference - if you're git repo has dependencies from another repo, and then you nest them:
+create a git repo for the module inside
+
+INFO
+
+When modding the drones, recalibrate PID control using app to change PID coefficients
+CAD design for waypoint markers on the drones to map location - mount trackers
+Option: design mount for battery
+
+TECH
+
+Lenovo Thinkpad X1 Yoga - Zander's laptop
+T series or X series
+
