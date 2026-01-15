@@ -83,3 +83,11 @@ Some networking modules have two modes:
 
 1. Configuration mode - AT commands have specific baud rate
 2. Working mode - baud rate may be different for software operation
+
+### CMake Cache Load Conflict Error
+
+Run `rm -rf build devel install` to wipe the `build/` and `devel/` cache. After cleaning the cache, run `catkin_make` to rebuild the directories alongside the `src` folder.
+
+### RViz Launch Access Authorization and X11 Forwarding
+
+When running the process `roslaunch fcu_core fcu_core.launch` you may encounter an error log that looks like `[rviz-9] process has died [pid 2302, exit code -6, cmd nice /opt/ros/noetic/lib/rviz/rviz -d /uav_project`. This means that RViz needs a local runtime launched on the host (since you will likely be running the ROS Noetic environment inside a Docker container). To resolve this, run the command `xhost +local:root`.
