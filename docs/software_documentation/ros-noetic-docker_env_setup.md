@@ -90,4 +90,4 @@ Run `rm -rf build devel install` to wipe the `build/` and `devel/` cache. After 
 
 ### RViz Launch Access Authorization and X11 Forwarding
 
-When running the process `roslaunch fcu_core fcu_core.launch` you may encounter an error log that looks like `[rviz-9] process has died [pid 2302, exit code -6, cmd nice /opt/ros/noetic/lib/rviz/rviz -d /uav_project`. This means that RViz needs a local runtime launched on the host (since you will likely be running the ROS Noetic environment inside a Docker container). To resolve this, run the command `xhost +local:root`.
+When running the process `roslaunch fcu_core fcu_core.launch` you may encounter an error log that looks like `[rviz-9] process has died [pid 2302, exit code -6, cmd nice /opt/ros/noetic/lib/rviz/rviz -d /uav_project`. This means that RViz needs a local runtime launched on the host (since you will likely be running the ROS Noetic environment inside a Docker container). To resolve this, run the command `xhost +local:root` outside of your container (in your host machine), then re-enter into your ROS container environment and run the launch process again.
