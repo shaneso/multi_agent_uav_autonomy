@@ -1,3 +1,6 @@
-[submodule "software/fcu_core"]
-	path = software/fcu_core
+[submodule "software/ros_ws/src/fcu_core"]
+	path = software/ros_ws/src/fcu_core
 	url = https://github.com/Zander-M/fcu_core
+[submodule "software/ros_ws/src/quadrotor_msgs"]
+	path = software/ros_ws/src/quadrotor_msgs
+	url = https://github.com/Zander-M/quadrotor_msgs
