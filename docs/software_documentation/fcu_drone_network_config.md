@@ -3,6 +3,7 @@
 1. Disconnect the Mlink-esp Wi-fi module from the FanciSwarm drone.
 	- The ESP Wi-fi module uses an 8-pin UART protocol for setting up communication through AT commands (Hayes-style command set).
 2. Connect the Mlink-esp Wi-fi module to the Mlink-esp debugger with the long side of the Wi-fi module (the side without pins) facing in the same direction as the USB of the debugger.
+	![Mlink Orientation](../media/mlink-setting.png)
 3. Open a serial monitor (e.g. Arduino IDE serial monitor, PuTTY) and configure the serial port connection (find the matching COM port or *tty* equivalent, depending on the OS).
 4. Set the baud rate to 115200.
 	- Note that the `fcu_bridge_00X.cpp` files use a functional baud rate of 460800, while the networking module uses 115200. Do not change the functional baud rate to 115200, as this will cause errors.
