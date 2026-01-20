@@ -4,3 +4,6 @@
 [submodule "software/ros_ws/src/fcu_core"]
 	path = software/ros_ws/src/fcu_core
 	url = https://github.com/Zander-M/fcu_core
+[submodule "software/ros_ws/src/vicon_bridge"]
+	path = software/ros_ws/src/vicon_bridge
+	url = https://github.com/ethz-asl/vicon_bridge
