@@ -1,4 +1,4 @@
-# Microcontroller Firmware Setup for Motion Capture
+# Microcontroller Firmware Setup for Motion Capture and Control
 
 ### Prerequisites
 
@@ -12,5 +12,7 @@
 - Change `#define USE_MOTION` from 0 to 1
 - Change `#define USE_ODOM_Z` from 0 to 1
 
-# Compile and build firmware with STM32CubeIDE
+### Compile and build firmware with STM32CubeIDE
+
+Note that compiling the `Mcontroller-v7-FanciSwarm` software repository will require a dependency package called `libMcontroller-v7-firmware.a`. While the `libMcontroller-v7-firmware.a`static file may already exist at the root of the repository, you will still need to replace it with the newly updated version, which can be downloaded online from `https://www.fancinnov.com/downloads` under the **Mcontroller V7 Firmware and Dependency Packages** section.
 
