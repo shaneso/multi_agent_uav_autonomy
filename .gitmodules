@@ -10,3 +10,6 @@
 [submodule "software/Mcontroller-v7-FanciSwarm"]
 	path = software/Mcontroller-v7-FanciSwarm
 	url = https://github.com/fancinnov/Mcontroller-v7-FanciSwarm
+[submodule "Mcontroller-v7-FanciSwarm"]
+	path = Mcontroller-v7-FanciSwarm
+	url = https://github.com/fancinnov/Mcontroller-v7-FanciSwarm
